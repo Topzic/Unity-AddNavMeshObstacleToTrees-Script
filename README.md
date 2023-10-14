@@ -26,9 +26,11 @@ If needed, you can customize the NavMeshObstacle components by adjusting their p
 // navMeshObstacle.carving = true; // Enable carving
 ```
 
-```csharp
-Optional Parenting
+## Optional Parenting
+
 If desired, you can attach the newly created tree GameObjects to the terrain to maintain a clean hierarchy.
+
+```csharp
 // (Optional)
 // Attach the tree game object to the terrain
 // treeGameObject.transform.parent = terrain.transform;
